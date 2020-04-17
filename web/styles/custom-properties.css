@@ -1,4 +1,4 @@
-:root {
+#__next { /* Should be `:root` instead of `#__next`, but this issue https://github.com/zeit/next.js/issues/10142 */
   --wide-container: 60rem;
   --narrow-container: 40rem;
 
